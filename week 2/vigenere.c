@@ -16,7 +16,7 @@ int main(int argc, string argv[])
         return 1;
     }
   
-    string p = get_string("plaintext: "); // p: palintext(açık metin)
+    string p = get_string("plaintext: "); // p: plaintext(açık metin)
     printf("ciphertext: "); // c: kriptolanmış metin
     // Algoritmamız: c(i) = (p(i) + k(j)) % 26
     if (p != NULL)
