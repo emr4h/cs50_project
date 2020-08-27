@@ -26,11 +26,11 @@ int main(int argc, char *argv[])
            
             if (p[i] >= 'a' && p[i] <= 'z') //kucuk harf kontrolu
             {
-                printf("%c", (((p[i] - 'a') + k) % 26) + 'a');
+                printf("%c", (((p[i] - 'a') + k) % 26) + 'a'); //kucuk harfin cevirimi - yazilmasi
             }
             else if (p[i] >= 'A' && p[i] <= 'Z') //buyukk harf kontrolu
             {
-                printf("%c", (((p[i] - 'A') + k) % 26) + 'A');
+                printf("%c", (((p[i] - 'A') + k) % 26) + 'A'); //buyuk harfin cevirimi - yazilmasi
             }
 
             else

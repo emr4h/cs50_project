@@ -19,8 +19,11 @@ int main(int argc, string argv[])
     string p = get_string("plaintext: "); // p: plaintext(açık metin)
     printf("ciphertext: "); // c: kriptolanmış metin
     // Algoritmamız: c(i) = (p(i) + k(j)) % 26
+    //Buradaki 26 ingilizcedeki harf sayisindan gelmektedir.
+    
     if (p != NULL)
     {
+        // Sifreleme Islemleri
         
         for (int i = 0, j = 0, n = strlen(p); i < n; i++, j++)
         {
@@ -32,11 +35,13 @@ int main(int argc, string argv[])
                
                 if (isupper(p[i]))
                 {
+                    //buyuk harf cevirisi - yazilmasi
                     c = (((p[i] - 'A') + (tolower(k[j]) - 'a'))%26) + 'A';
                     printf("%c", (char)c);
                 }
                 else if (islower(p[i]))
                 {
+                    //kucuk harf cevirisi - yazilmasi
                     c = (((p[i] - 'a') + (tolower(k[j]) - 'a'))%26) + 'a';
                     printf("%c", (char)c);
                 }
