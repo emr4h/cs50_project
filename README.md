@@ -18,23 +18,23 @@ Kurstaki projeler her hafta ayrı ayrı olacak biçimde week[hafta_no] şeklinde
 Her haftanın konusu aşağıdaki gibidir.
 
 
-. Scratch 😺
+. Scratch 😺 (0)
 
-. C
+. C (1)
 
-. Arrays
+. Arrays (2)
 
-. Algorithms
+. Algorithms (3)
 
-. Memory
+. Memory (4)
 
-. Data Structures
+. Data Structures (5)
 
-. Python 🐍
+. Python 🐍 (6)
 
-. SQL
+. SQL (7)
 
-. Information
+. Information (8)
 
 
 Verilen projelerin türkçe açıklamaları courses.kodluyoruz.org 'dan alınmış olup descriptions klasörlerinde bulunmaktadır, indirip inceleyebilirsiniz.
